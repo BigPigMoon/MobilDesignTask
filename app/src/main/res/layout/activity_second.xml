@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/black"
+        />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/black"
+        />
+
+    <View
+        android:layout_width="30dp"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/black"/>
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="225dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="New Aromat"
+        android:textSize="24sp"
+        android:textColor="#2E2D2D"
+        android:gravity="top"
+        />
+
+    <!-- Ваш аромат -->
+    <TextView
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="82dp"
+        android:text="Ваш аромат"
+        android:textAlignment="center"
+        android:textColor="#2e2d2d"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <!-- image 9 -->
+    <View
+        android:id="@+id/image_9"
+        android:layout_width="190dp"
+        android:layout_height="138dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="137dp"
+        android:background="@drawable/image_9" />
+
+    <!-- Acqua Di Gio от Giorgio Armani -->
+    <TextView
+        android:id="@+id/acqua_di_gi"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="137dp"
+        android:text="Acqua Di Gio от Giorgio Armani"
+        android:textColor="#4D4242"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- 16 000 рублей -->
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="221dp"
+        android:layout_marginTop="199dp"
+        android:text="16 000 рублей"
+        android:textColor="#4D4242"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- Сердечные нотки содержат пряный мускат, -->
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="294dp"
+        android:text="Сердечные нотки содержат пряный мускат, "
+        android:textSize="14sp"
+        android:textColor="#4D4242"
+        />
+
+    <!-- Заполните данные, мы с вами свяжемся -->
+    <TextView
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="470dp"
+        android:textColor="#4D4242"
+        android:textSize="16sp"
+        android:text="Заполните данные, мы с вами свяжемся"
+        android:gravity="top"
+        />
+    <!-- Доставка -->
+    <TextView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="381dp"
+        android:gravity="top"
+        android:text="Доставка"
+        android:textColor="#2E2D2D"
+        android:textSize="13sp"
+        android:textStyle="bold"/>
+
+    <!-- Курьер -->
+    <TextView
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="381dp"
+        android:text="Курьер"
+        android:textSize="13sp"
+        android:textColor="#2E2D2D"
+        android:gravity="top"
+        />
+    <!-- Самовывоз -->
+    <TextView
+        android:layout_width="73dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="420dp"
+        android:text="Самовывоз"
+        android:textSize="13sp"
+        android:textColor="#2E2D2D"
+        android:gravity="top"
+        />
+
+    <!-- Rectangle 2 -->
+    <View
+        android:id="@+id/rectangle_2"
+        android:layout_width="351dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="511dp"
+        android:background="#B8B5B2"
+        />
+
+    <!-- Rectangle 3 -->
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="351dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="574dp"
+        android:background="#B8B5B2" />
+
+    <!-- Введите свое имя -->
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="524dp"
+        android:text="Введите свое имя"
+        android:textColor="#615656"
+        android:textSize="13sp"
+        android:gravity="top"
+        />
+
+
+    <!-- Введите свой номер телефона -->
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="587dp"
+        android:text="Введите свой номер телефона"
+        android:textColor="#615656"
+        android:textSize="13sp"
+        android:gravity="top"
+        />
+
+    <!-- Rectangle 5 -->
+    <View
+        android:id="@+id/rectangle_5"
+        android:layout_width="351dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="637dp"
+        android:background="#EACCA8"
+        />
+
+    <!-- Заказать -->
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="653dp"
+        android:text="Заказать"
+        android:textColor="#2E2D2D"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <!-- Rectangle 15 -->
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="351dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="698dp"
+        android:background="#EACCA8"
+        />
+
+    <!-- Позвонить -->
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="714dp"
+        android:text="Позвонить"
+        android:textAlignment="center"
+        android:textColor="#2E2D2D"
+        android:textSize="18sp"/>
+
+    <!-- Rectangle 13 -->
+    <View
+        android:layout_width="31dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="258dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="382dp"
+        android:background="@drawable/rectangle_13"
+        />
+
+    <!-- Ellipse 20 -->
+    <View
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="381dp"
+        android:background="@drawable/ellipse_20"
+        />
+
+    <!-- Rectangle 13 -->
+    <View
+        android:layout_width="31dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="258dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="421dp"
+        android:background="@drawable/rectangle_13"
+        />
+
+    <!-- Ellipse 20 -->
+    <View
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="256dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="421dp"
+        android:background="@drawable/ellipse_20"
+        />
+
+    <!-- Vector -->
+    <View
+        android:layout_width="12dp"
+        android:layout_height="7.4dp"
+        android:layout_marginLeft="371dp"
+        android:layout_marginTop="299dp"
+        android:background="@drawable/vector" />
+
+</RelativeLayout>
